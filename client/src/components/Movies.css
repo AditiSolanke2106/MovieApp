@@ -1,0 +1,80 @@
+.App {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5rem;
+    background-image: linear-gradient( #d7dde8,#757f9a);
+       padding-top: 20px;
+  }
+  
+  input, select {
+    text-align: center;
+    height: 2rem;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 800;
+
+  }
+  
+  .App button {
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #52c234;
+  }
+  
+  .Card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  
+  }
+  
+  .results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .result-card {
+    background-color: #ffffff;
+    border: 1px solid #161616;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .result-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .result-card img:hover{
+    transform: scale(1.1);
+  }
+  
+  .result-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    color: #f15989;
+  }
+  .result-card h3:hover{
+    text-decoration: underline;
+  }
+  
+  .result-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
